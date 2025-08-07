@@ -29,13 +29,6 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-			<distributionManagement>
-    <repository>
-        <id>nexus</id>
-        <url>http://3.25.198.98:8081//repository/maven-releases/</url>
-    </repository>
-</distributionManagement>
-
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
