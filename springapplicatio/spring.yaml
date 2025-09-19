@@ -39,7 +39,7 @@ spec:
               key: db_password
         resources:
           requests:
-            cpu: "600m"
+            cpu: "300m"
             memory: "250Mi"
           limits:
             cpu: "800m"
