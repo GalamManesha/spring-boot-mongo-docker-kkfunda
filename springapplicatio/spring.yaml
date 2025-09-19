@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: springcon
-        image: maanesha689/activate:1.0.0
+        image: manesha689/activate:1.0.0
         ports:
         - containerPort: 8080
         env:
