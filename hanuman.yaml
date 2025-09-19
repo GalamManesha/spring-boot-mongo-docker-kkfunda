@@ -93,7 +93,7 @@ spec:
           mountPath: /data/db
       volumes:
       - name: mongovolume
-        emptyDir: {}   # for demo, in real-time use PersistentVolume
+        emptyDir: {}   # Replace with PersistentVolumeClaim in real use
 ---
 apiVersion: v1
 kind: Service
